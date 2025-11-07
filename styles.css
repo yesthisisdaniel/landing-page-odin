@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+
+.header {
+    display: flex;
+    height: 72px;
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.information {
+    display: flex;
+    background-color: lightgreen;
+}
+
+.quote {
+    display: flex;
+    background-color: lightyellow;
+}
+
+.footer {
+    display: flex;
+    background-color: lightpink;
+}
