@@ -11,9 +11,9 @@ body {
     height: 72px;
     display: flex;
     background-color: lightblue;
-    justify-content: space-between;
-    padding: 5px;
+    justify-content: center;
     align-items: center;
+    gap: 300px
 }
 
 ul {
@@ -23,8 +23,18 @@ ul {
     margin-right: 20px;
 }
 
+.welcome {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    text-align: center;
+}
+
 .information {
     display: flex;
+    flex-direction: column;
     background-color: lightgreen;
 }
 
