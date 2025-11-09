@@ -1,15 +1,15 @@
 body {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    
 }
 
 .header {
     display: flex;
     height: 72px;
-    display: flex;
     background-color: lightblue;
     justify-content: center;
     align-items: center;
@@ -25,33 +25,17 @@ ul {
 
 .welcome-box {
     display: flex;
-    flex-direction: row;
-}
-
-/* .welcome {
-    display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: auto;
     padding: 15px;
 }
-
-.image {
-    display: flex;
-    justify-content: center;
-    padding: 15px
-} */
 
 img {
     max-width: 300px;
     max-height: 250px;
 } 
 
-.information {
-    display: flex;
-    flex-direction: column;
-    background-color: lightgreen;
-}
-
-.directions-box {
+.destination-box {
     display: flex;
     justify-content: space-between;
 }
