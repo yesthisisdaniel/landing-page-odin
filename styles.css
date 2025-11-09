@@ -23,14 +23,27 @@ ul {
     margin-right: 20px;
 }
 
-.welcome {
+.welcome-box {
     display: flex;
     flex-direction: row;
 }
 
-.image {
-    text-align: center;
+/* .welcome {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
 }
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding: 15px
+} */
+
+img {
+    max-width: 300px;
+    max-height: 250px;
+} 
 
 .information {
     display: flex;
@@ -38,12 +51,37 @@ ul {
     background-color: lightgreen;
 }
 
-.quote {
+.directions-box {
     display: flex;
+    justify-content: space-between;
+}
+
+.quote-box {
+    display: flex;
+    flex-wrap: wrap;
     background-color: lightyellow;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote {
+    font-size: 32px;
+    max-width: 600px;
+    font-style: italic;
+    align-self: center;
+
+}
+.author {
+    margin-left: 600px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .footer {
     display: flex;
     background-color: lightpink;
+}
+
+button {
+    width: 100px;
 }
