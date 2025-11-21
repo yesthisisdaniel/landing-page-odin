@@ -27,7 +27,11 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-bottom: auto;
-    padding: 15px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: aquamarine;
 }
 
 img {
@@ -61,6 +65,26 @@ img {
     font-weight: bold;
 }
 
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: aliceblue;
+    align-items: center;
+
+}
+
+.signup-button {
+    height: 30px;
+}
 .footer {
     display: flex;
     background-color: lightpink;
