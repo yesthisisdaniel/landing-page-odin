@@ -7,6 +7,12 @@ body {
     min-height: 100vh;
 }
 
+.metamorphous-regular {
+  font-family: "Metamorphous", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .header {
     display: flex;
     height: 72px;
@@ -59,8 +65,27 @@ ul {
     border-color: peachpuff;
     border-radius: 15%;
     border-width: 5px;
-    max-width: 400px;
-    max-height: 300px;
+    width: 400px;
+    height: 300px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.destinationImage:hover {
+    transform: scale(1.5);
+}
+
+.destinationDescription {
+    text-align: center;
+    width: 400px;
+    text-indent: 0;
+    font-family: "Metamorphous", serif;
+}
+
+.destinationTitle {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: "Metamorphous", serif;
 }
 
 .quote-box {
